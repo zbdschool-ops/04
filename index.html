@@ -2220,7 +2220,7 @@ updateStep6Display();
 
 // ============ ЗБЕРЕЖЕННЯ ============
 function loadProgress() {
-const saved = sessionStorage.getItem('section4Progress_v3');
+const saved = localStorage.getItem('section4Progress_v3');
 if (saved) {
 try {
 const data = JSON.parse(saved);
